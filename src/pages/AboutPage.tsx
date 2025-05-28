@@ -11,7 +11,7 @@ const AboutPage = () => {
             About <span className="text-carex-blue">Carex</span> Products
           </h1>
           <p className="text-gray-600 text-center max-w-3xl mx-auto">
-            Learn about our story, mission, and commitment to quality cleaning solutions
+            Quality homecare and automotive cleaning solutions that combine effectiveness, affordability, and innovation
           </p>
         </div>
       </div>
@@ -21,21 +21,22 @@ const AboutPage = () => {
           <div>
             <h2 className="text-2xl font-bold mb-6">Our Story</h2>
             <p className="mb-4">
-              Carex Products (Nigeria) Enterprises started as a small family business in Nigeria with a simple vision: to create effective, affordable cleaning solutions that work for Nigerian households and businesses.
+              At Carex Products (Nigeria) Limited, we believe that cleanliness is not just a habit—it's a lifestyle. Since our establishment on the 19th of December, 2017 (CAC No: BN 2564202), we have been committed to delivering quality homecare and automotive cleaning solutions that combine effectiveness, affordability, and innovation.
             </p>
             <p className="mb-4">
-              Over the years, we have grown to become a trusted name in cleaning products, developing a range of solutions including our popular Bukleen Car Wash, Dish Wash, Laundry Wash, and Toilet Wash products.
+              Our flagship brand, Bukleen, is a trusted name across households and car owners in Nigeria, known for setting the standard in hygiene and cleanliness. Our range of Bukleen products includes Car Wash Liquid Soap (4L & 1L), Laundry Wash Liquid Soap (4L & 1L), Bleach (1L), and Toilet Wash (500ml)—each carefully formulated to provide deep cleaning, refreshing fragrance, and outstanding value.
             </p>
             <p className="mb-4">
-              Our products are formulated specifically for the Nigerian market, taking into account local conditions and cleaning needs. We pride ourselves on maintaining the highest standards of quality while keeping our products affordable.
+              As a proudly Nigerian company, we are driven by a vision to enhance everyday life through superior products that care for your car, your clothes, and your home. At Carex, we don't just manufacture products—we build trust, one bottle at a time.
             </p>
           </div>
           <div className="bg-gray-100 rounded-lg p-8 h-80 flex items-center justify-center">
-            {/* Placeholder for company image */}
             <span className="text-2xl font-bold text-center">
               Carex Products Nigeria
               <br />
-              <span className="text-carex-green">Est. 2015</span>
+              <span className="text-carex-green">Est. December 19, 2017</span>
+              <br />
+              <span className="text-sm text-gray-600">CAC No: BN 2564202</span>
             </span>
           </div>
         </div>

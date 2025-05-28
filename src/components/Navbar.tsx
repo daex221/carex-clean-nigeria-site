@@ -42,6 +42,9 @@ const Navbar = () => {
             <NavLink to="/contact" className={navLinkClasses}>
               Contact
             </NavLink>
+            <NavLink to="/training" className={navLinkClasses}>
+              Training
+            </NavLink>
           </div>
 
           {/* Call Us Button (Desktop) */}
@@ -103,6 +106,13 @@ const Navbar = () => {
               onClick={toggleMenu}
             >
               Contact
+            </NavLink>
+            <NavLink
+              to="/training"
+              className={navLinkClasses}
+              onClick={toggleMenu}
+            >
+              Training
             </NavLink>
             <Button
               asChild
