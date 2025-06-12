@@ -10,10 +10,19 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">
-              <span className="text-carex-blue">CAREX</span>
-              <span className="text-carex-green"> Products</span>
-            </h3>
+            <div className="flex items-center gap-2 mb-4">
+              <img 
+                src="/lovable-uploads/e3d24c1b-f217-4de6-9e33-61c88c9d48bf.png" 
+                alt="Carex Products Logo" 
+                className="h-8 w-auto"
+              />
+              <div>
+                <h3 className="text-xl font-bold">
+                  <span className="text-carex-blue">CAREX</span>
+                </h3>
+                <span className="text-carex-green text-sm">Products Nigeria Enterprises</span>
+              </div>
+            </div>
             <p className="text-gray-300 mb-4">
               Quality cleaning products for your home, car, and business needs.
             </p>
@@ -39,6 +48,11 @@ const Footer = () => {
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-carex-blue transition-colors">
                   About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/blog" className="text-gray-300 hover:text-carex-blue transition-colors">
+                  Blog
                 </Link>
               </li>
               <li>
@@ -77,7 +91,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
           <p>
-            © {currentYear} Carex Products (Nigeria) Enterprises. All rights reserved.
+            © {currentYear} Carex Products Nigeria Enterprises. All rights reserved.
           </p>
         </div>
       </div>

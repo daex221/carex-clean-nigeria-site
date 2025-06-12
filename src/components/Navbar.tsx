@@ -23,9 +23,16 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
-            <span className="text-xl font-bold text-carex-blue">CAREX</span>
-            <span className="text-carex-green font-medium">Products</span>
+          <Link to="/" className="flex items-center gap-2">
+            <img 
+              src="/lovable-uploads/e3d24c1b-f217-4de6-9e33-61c88c9d48bf.png" 
+              alt="Carex Products Logo" 
+              className="h-10 w-auto"
+            />
+            <div className="flex flex-col">
+              <span className="text-lg font-bold text-carex-blue">CAREX</span>
+              <span className="text-xs text-carex-green font-medium">Products Nigeria Enterprises</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -38,6 +45,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink to="/about" className={navLinkClasses}>
               About
+            </NavLink>
+            <NavLink to="/blog" className={navLinkClasses}>
+              Blog
             </NavLink>
             <NavLink to="/contact" className={navLinkClasses}>
               Contact
@@ -99,6 +109,13 @@ const Navbar = () => {
               onClick={toggleMenu}
             >
               About
+            </NavLink>
+            <NavLink
+              to="/blog"
+              className={navLinkClasses}
+              onClick={toggleMenu}
+            >
+              Blog
             </NavLink>
             <NavLink
               to="/contact"

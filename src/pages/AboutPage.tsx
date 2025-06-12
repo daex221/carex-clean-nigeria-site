@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -8,7 +7,7 @@ const AboutPage = () => {
       <div className="bg-gray-100 py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-            About <span className="text-carex-blue">Carex</span> Products
+            About <span className="text-carex-blue">Carex</span> Products Nigeria Enterprises
           </h1>
           <p className="text-gray-600 text-center max-w-3xl mx-auto">
             Quality homecare and automotive cleaning solutions that combine effectiveness, affordability, and innovation
@@ -21,18 +20,23 @@ const AboutPage = () => {
           <div>
             <h2 className="text-2xl font-bold mb-6">Our Story</h2>
             <p className="mb-4">
-              At Carex Products (Nigeria) Limited, we believe that cleanliness is not just a habit—it's a lifestyle. Since our establishment on the 19th of December, 2017 (CAC No: BN 2564202), we have been committed to delivering quality homecare and automotive cleaning solutions that combine effectiveness, affordability, and innovation.
+              At Carex Products Nigeria Enterprises, we believe that cleanliness is not just a habit—it's a lifestyle. Since our establishment on the 19th of December, 2017 (CAC No: BN 2564202), we have been committed to delivering quality homecare and automotive cleaning solutions that combine effectiveness, affordability, and innovation.
             </p>
             <p className="mb-4">
-              Our flagship brand, Bukleen, is a trusted name across households and car owners in Nigeria, known for setting the standard in hygiene and cleanliness. Our range of Bukleen products includes Car Wash Liquid Soap (4L & 1L), Laundry Wash Liquid Soap (4L & 1L), Bleach (1L), and Toilet Wash (500ml)—each carefully formulated to provide deep cleaning, refreshing fragrance, and outstanding value.
+              Our flagship brand, Carex, is a trusted name across households and car owners in Nigeria, known for setting the standard in hygiene and cleanliness. Our range of Carex products includes Car Wash Liquid Soap (4L & 1L), Laundry Wash Liquid Soap (4L & 1L), Bleach (1L), Toilet Wash (500ml), and Dish Wash Liquid (500ml)—each carefully formulated to provide deep cleaning, refreshing fragrance, and outstanding value.
             </p>
             <p className="mb-4">
               As a proudly Nigerian company, we are driven by a vision to enhance everyday life through superior products that care for your car, your clothes, and your home. At Carex, we don't just manufacture products—we build trust, one bottle at a time.
             </p>
           </div>
-          <div className="bg-gray-100 rounded-lg p-8 h-80 flex items-center justify-center">
+          <div className="bg-gray-100 rounded-lg p-8 h-80 flex flex-col items-center justify-center">
+            <img 
+              src="/lovable-uploads/e3d24c1b-f217-4de6-9e33-61c88c9d48bf.png" 
+              alt="Carex Products Logo" 
+              className="h-24 w-auto mb-4"
+            />
             <span className="text-2xl font-bold text-center">
-              Carex Products Nigeria
+              Carex Products Nigeria Enterprises
               <br />
               <span className="text-carex-green">Est. December 19, 2017</span>
               <br />

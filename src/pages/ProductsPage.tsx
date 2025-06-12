@@ -6,49 +6,57 @@ import { Button } from "@/components/ui/button";
 const sampleProducts = [
   {
     id: 1,
-    name: "Bukleen Car Wash",
+    name: "Carex Car Wash Liquid Soap 4L",
     description: "Premium car wash solution for a spotless clean and shine. Safe for all car surfaces and provides protection from UV damage.",
-    price: 2500,
+    price: 3500,
     category: "Car Care",
     imageUrl: "/placeholder.svg",
   },
   {
     id: 2,
-    name: "Dish Wash",
-    description: "Effective dish washing liquid that cuts through grease and oil. Gentle on hands while providing powerful cleaning.",
-    price: 1800,
-    category: "Kitchen",
+    name: "Carex Car Wash Liquid Soap 1L",
+    description: "Premium car wash solution for a spotless clean and shine. Safe for all car surfaces and provides protection from UV damage.",
+    price: 1200,
+    category: "Car Care",
     imageUrl: "/placeholder.svg",
   },
   {
     id: 3,
-    name: "Laundry Wash",
-    description: "Powerful laundry detergent for bright and fresh-smelling clothes. Removes tough stains while protecting fabric colors.",
-    price: 2200,
-    category: "Laundry",
+    name: "Carex Dish Wash Liquid 500ml",
+    description: "Effective dish washing liquid that cuts through grease and oil. Gentle on hands while providing powerful cleaning.",
+    price: 800,
+    category: "Kitchen",
     imageUrl: "/placeholder.svg",
   },
   {
     id: 4,
-    name: "Toilet Wash",
-    description: "Advanced toilet cleaning solution for hygiene and freshness. Kills 99.9% of germs and removes tough stains.",
-    price: 1950,
-    category: "Bathroom",
+    name: "Carex Laundry Wash Liquid Soap 4L",
+    description: "Powerful laundry liquid soap for bright and fresh-smelling clothes. Removes tough stains while protecting fabric colors.",
+    price: 3200,
+    category: "Laundry",
     imageUrl: "/placeholder.svg",
   },
   {
     id: 5,
-    name: "Multi-Surface Cleaner",
-    description: "Versatile cleaning solution for all surfaces. Removes dirt, grime and provides a streak-free finish.",
-    price: 2100,
-    category: "Household",
+    name: "Carex Laundry Wash Liquid Soap 1L",
+    description: "Powerful laundry liquid soap for bright and fresh-smelling clothes. Removes tough stains while protecting fabric colors.",
+    price: 1100,
+    category: "Laundry",
     imageUrl: "/placeholder.svg",
   },
   {
     id: 6,
-    name: "Glass Cleaner",
-    description: "Specialized formula for spotless, streak-free glass and mirror surfaces. Quick drying with no residue.",
-    price: 1700,
+    name: "Carex Toilet Wash 500ml",
+    description: "Advanced toilet cleaning solution for hygiene and freshness. Kills 99.9% of germs and removes tough stains.",
+    price: 900,
+    category: "Bathroom",
+    imageUrl: "/placeholder.svg",
+  },
+  {
+    id: 7,
+    name: "Carex Bleach 1L",
+    description: "Powerful bleaching solution for whitening and disinfecting. Effective against stains and bacteria.",
+    price: 1000,
     category: "Household",
     imageUrl: "/placeholder.svg",
   },
@@ -73,12 +81,24 @@ const ProductsPage = () => {
             Our <span className="text-carex-blue">Products</span>
           </h1>
           <p className="text-gray-600 text-center max-w-3xl mx-auto">
-            Discover our range of high-quality cleaning solutions for your home, car, and business
+            Discover our range of high-quality Carex cleaning solutions for your home, car, and business
           </p>
         </div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Company Products Display */}
+        <div className="text-center mb-12">
+          <h2 className="text-2xl font-bold mb-6">All Carex Products</h2>
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/lovable-uploads/e3d24c1b-f217-4de6-9e33-61c88c9d48bf.png" 
+              alt="All Carex Products" 
+              className="max-w-full h-auto rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+
         {/* Category filters */}
         <div className="flex flex-wrap gap-2 mb-8 justify-center">
           {categories.map((category) => (

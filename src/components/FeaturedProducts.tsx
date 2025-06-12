@@ -6,30 +6,30 @@ import { Link } from "react-router-dom";
 const featuredProducts = [
   {
     id: 1,
-    name: "Bukleen Car Wash",
+    name: "Carex Car Wash Liquid Soap 4L",
     description: "Premium car wash solution for a spotless clean and shine.",
-    price: 2500,
+    price: 3500,
     imageUrl: "/placeholder.svg",
   },
   {
     id: 2,
-    name: "Dish Wash",
+    name: "Carex Dish Wash Liquid 500ml",
     description: "Effective dish washing liquid that cuts through grease and oil.",
-    price: 1800,
+    price: 800,
     imageUrl: "/placeholder.svg",
   },
   {
     id: 3,
-    name: "Laundry Wash",
-    description: "Powerful laundry detergent for bright and fresh-smelling clothes.",
-    price: 2200,
+    name: "Carex Laundry Wash Liquid Soap 4L",
+    description: "Powerful laundry liquid soap for bright and fresh-smelling clothes.",
+    price: 3200,
     imageUrl: "/placeholder.svg",
   },
   {
     id: 4,
-    name: "Toilet Wash",
+    name: "Carex Toilet Wash 500ml",
     description: "Advanced toilet cleaning solution for hygiene and freshness.",
-    price: 1950,
+    price: 900,
     imageUrl: "/placeholder.svg",
   },
 ];
@@ -43,7 +43,7 @@ const FeaturedProducts = () => {
             Our <span className="text-carex-blue">Featured</span> Products
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover our top-selling cleaning solutions, trusted by households and businesses across Nigeria.
+            Discover our top-selling Carex cleaning solutions, trusted by households and businesses across Nigeria.
           </p>
         </div>
 
