@@ -6,28 +6,28 @@ import { Link } from "react-router-dom";
 const featuredProducts = [
   {
     id: 1,
-    name: "Carex Car Wash Liquid Soap 4L",
+    name: "Bukleen Car Wash Liquid Soap 4L",
     description: "Premium car wash solution for a spotless clean and shine.",
     price: 6000,
     imageUrl: "/lovable-uploads/de0cc295-4b95-423e-af55-21dc698910bf.png",
   },
   {
     id: 2,
-    name: "Carex Laundry Wash Liquid Soap 4L",
+    name: "Bukleen Laundry Wash Liquid Soap 4L",
     description: "Powerful laundry liquid soap for bright and fresh-smelling clothes.",
     price: 2000,
     imageUrl: "/lovable-uploads/d7573345-fefc-4992-ad1a-5fed7fbd77dd.png",
   },
   {
     id: 3,
-    name: "Carex Laundry Wash Liquid Soap 1L",
+    name: "Bukleen Laundry Wash Liquid Soap 1L",
     description: "Powerful laundry liquid soap for bright and fresh-smelling clothes.",
     price: 1800,
     imageUrl: "/lovable-uploads/1c14c88d-7ed1-4a82-87a3-2fd739c7cd12.png",
   },
   {
     id: 4,
-    name: "Carex Toilet Wash 500ml",
+    name: "Bukleen Toilet Wash 500ml",
     description: "Advanced toilet cleaning solution for hygiene and freshness.",
     price: 900,
     imageUrl: "/lovable-uploads/d2e3913a-98cf-4700-9b2f-8d64ab264b41.png",
@@ -43,14 +43,14 @@ const FeaturedProducts = () => {
             Our <span className="text-carex-blue">Featured</span> Products
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover our top-selling Carex cleaning solutions, trusted by households and businesses across Nigeria.
+            Discover our top-selling Bukleen cleaning solutions, trusted by households and businesses across Nigeria.
           </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {featuredProducts.map((product) => (
-            <div key={product.id} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
-              <div className="h-48 bg-gray-100 flex items-center justify-center">
+            <div key={product.id} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105 border border-gray-200">
+              <div className="h-48 bg-gray-50 flex items-center justify-center p-4">
                 <img
                   src={product.imageUrl}
                   alt={product.name}
@@ -58,8 +58,8 @@ const FeaturedProducts = () => {
                 />
               </div>
               <div className="p-4">
-                <h3 className="font-bold text-lg mb-1">{product.name}</h3>
-                <p className="text-gray-600 text-sm mb-3">{product.description}</p>
+                <h3 className="font-bold text-lg mb-1 text-gray-900">{product.name}</h3>
+                <p className="text-gray-600 text-sm mb-3 leading-relaxed">{product.description}</p>
                 <div className="flex justify-between items-center">
                   <span className="font-bold text-carex-green">
                     ₦{product.price.toLocaleString()}
