@@ -2,15 +2,15 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
-// Sample products data (will be replaced with Supabase data)
+// Sample products data with actual images and updated prices
 const sampleProducts = [
   {
     id: 1,
     name: "Carex Car Wash Liquid Soap 4L",
     description: "Premium car wash solution for a spotless clean and shine. Safe for all car surfaces and provides protection from UV damage.",
-    price: 3500,
+    price: 6000,
     category: "Car Care",
-    imageUrl: "/placeholder.svg",
+    imageUrl: "/lovable-uploads/de0cc295-4b95-423e-af55-21dc698910bf.png",
   },
   {
     id: 2,
@@ -32,17 +32,17 @@ const sampleProducts = [
     id: 4,
     name: "Carex Laundry Wash Liquid Soap 4L",
     description: "Powerful laundry liquid soap for bright and fresh-smelling clothes. Removes tough stains while protecting fabric colors.",
-    price: 3200,
+    price: 2000,
     category: "Laundry",
-    imageUrl: "/placeholder.svg",
+    imageUrl: "/lovable-uploads/d7573345-fefc-4992-ad1a-5fed7fbd77dd.png",
   },
   {
     id: 5,
     name: "Carex Laundry Wash Liquid Soap 1L",
     description: "Powerful laundry liquid soap for bright and fresh-smelling clothes. Removes tough stains while protecting fabric colors.",
-    price: 1100,
+    price: 1800,
     category: "Laundry",
-    imageUrl: "/placeholder.svg",
+    imageUrl: "/lovable-uploads/1c14c88d-7ed1-4a82-87a3-2fd739c7cd12.png",
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ const sampleProducts = [
     description: "Advanced toilet cleaning solution for hygiene and freshness. Kills 99.9% of germs and removes tough stains.",
     price: 900,
     category: "Bathroom",
-    imageUrl: "/placeholder.svg",
+    imageUrl: "/lovable-uploads/d2e3913a-98cf-4700-9b2f-8d64ab264b41.png",
   },
   {
     id: 7,

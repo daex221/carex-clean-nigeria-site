@@ -2,35 +2,35 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-// Sample featured products (will be replaced with data from Supabase later)
+// Sample featured products with actual images and prices
 const featuredProducts = [
   {
     id: 1,
     name: "Carex Car Wash Liquid Soap 4L",
     description: "Premium car wash solution for a spotless clean and shine.",
-    price: 3500,
-    imageUrl: "/placeholder.svg",
+    price: 6000,
+    imageUrl: "/lovable-uploads/de0cc295-4b95-423e-af55-21dc698910bf.png",
   },
   {
     id: 2,
-    name: "Carex Dish Wash Liquid 500ml",
-    description: "Effective dish washing liquid that cuts through grease and oil.",
-    price: 800,
-    imageUrl: "/placeholder.svg",
+    name: "Carex Laundry Wash Liquid Soap 4L",
+    description: "Powerful laundry liquid soap for bright and fresh-smelling clothes.",
+    price: 2000,
+    imageUrl: "/lovable-uploads/d7573345-fefc-4992-ad1a-5fed7fbd77dd.png",
   },
   {
     id: 3,
-    name: "Carex Laundry Wash Liquid Soap 4L",
+    name: "Carex Laundry Wash Liquid Soap 1L",
     description: "Powerful laundry liquid soap for bright and fresh-smelling clothes.",
-    price: 3200,
-    imageUrl: "/placeholder.svg",
+    price: 1800,
+    imageUrl: "/lovable-uploads/1c14c88d-7ed1-4a82-87a3-2fd739c7cd12.png",
   },
   {
     id: 4,
     name: "Carex Toilet Wash 500ml",
     description: "Advanced toilet cleaning solution for hygiene and freshness.",
     price: 900,
-    imageUrl: "/placeholder.svg",
+    imageUrl: "/lovable-uploads/d2e3913a-98cf-4700-9b2f-8d64ab264b41.png",
   },
 ];
 
