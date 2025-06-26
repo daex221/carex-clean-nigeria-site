@@ -10,7 +10,7 @@ const sampleProducts = [
     description: "Premium car wash solution for a spotless clean and shine. Safe for all car surfaces and provides protection from UV damage.",
     price: 6000,
     category: "Car Care",
-    imageUrl: "/lovable-uploads/de0cc295-4b95-423e-af55-21dc698910bf.png",
+    imageUrl: "/lovable-uploads/c1401439-d24f-4815-b7ae-ec13758e39ed.png",
   },
   {
     id: 2,
@@ -30,15 +30,15 @@ const sampleProducts = [
   },
   {
     id: 4,
-    name: "Bukleen Laundry Wash Liquid Soap 4L",
+    name: "Bukleen Laundry Wash 4L",
     description: "Powerful laundry liquid soap for bright and fresh-smelling clothes. Removes tough stains while protecting fabric colors.",
     price: 2000,
     category: "Laundry",
-    imageUrl: "/lovable-uploads/d7573345-fefc-4992-ad1a-5fed7fbd77dd.png",
+    imageUrl: "/lovable-uploads/aeb22473-af27-494b-af76-d595f18eec71.png",
   },
   {
     id: 5,
-    name: "Bukleen Laundry Wash Liquid Soap 1L",
+    name: "Bukleen Laundry Wash 1L",
     description: "Powerful laundry liquid soap for bright and fresh-smelling clothes. Removes tough stains while protecting fabric colors.",
     price: 1800,
     category: "Laundry",
@@ -87,18 +87,6 @@ const ProductsPage = () => {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Company Products Display */}
-        <div className="text-center mb-12">
-          <h2 className="text-2xl font-bold mb-6">All Bukleen Products</h2>
-          <div className="flex justify-center mb-8">
-            <img 
-              src="/lovable-uploads/e3d24c1b-f217-4de6-9e33-61c88c9d48bf.png" 
-              alt="All Bukleen Products" 
-              className="max-w-full h-auto rounded-lg shadow-lg"
-            />
-          </div>
-        </div>
-
         {/* Category filters */}
         <div className="flex flex-wrap gap-2 mb-8 justify-center">
           {categories.map((category) => (
