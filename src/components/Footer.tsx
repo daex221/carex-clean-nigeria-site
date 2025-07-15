@@ -11,11 +11,11 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img 
-                src="/lovable-uploads/e3d24c1b-f217-4de6-9e33-61c88c9d48bf.png" 
-                alt="Carex Products Logo" 
-                className="h-8 w-auto"
-              />
+            <img 
+              src="/lovable-uploads/1dcb5641-0924-4b7a-8c4a-5db3acd173f7.png" 
+              alt="Bukleen Logo" 
+              className="h-8 w-auto"
+            />
               <div>
                 <h3 className="text-xl font-bold">
                   <span className="text-carex-blue">CAREX</span>
