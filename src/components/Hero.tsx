@@ -27,14 +27,11 @@ const Hero = () => {
           </div>
           <div className="hidden md:block">
             <div className="relative">
-              {/* Placeholder for hero image - will be replaced with actual product image */}
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-8 h-80 flex items-center justify-center">
-                <span className="text-2xl font-bold text-center">
-                  Carex Products Nigeria
-                  <br />
-                  <span className="text-carex-green">Quality Cleaning Solutions</span>
-                </span>
-              </div>
+              <img 
+                src="/lovable-uploads/39db1ad0-a4f9-4318-8333-7297635e7733.png" 
+                alt="Bukleen Products" 
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
             </div>
           </div>
         </div>
