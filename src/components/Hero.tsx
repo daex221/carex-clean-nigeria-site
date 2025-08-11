@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="hidden md:block">
             <div className="relative">
               <img 
-                src="/lovable-uploads/39db1ad0-a4f9-4318-8333-7297635e7733.png" 
+                src="/lovable-uploads/99a5c243-8a66-43bb-a614-a97158a1525d.png" 
                 alt="Bukleen Products" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />
