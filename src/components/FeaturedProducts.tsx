@@ -15,21 +15,14 @@ const featuredProducts = [
     id: 2,
     name: "Bukleen Laundry Wash Liquid Soap 4L",
     description: "Powerful laundry liquid soap for bright and fresh-smelling clothes.",
-    price: 2000,
-    imageUrl: "/lovable-uploads/cf77fe9d-9209-4730-aa8d-601b3055ff5d.png",
-  },
-  {
-    id: 3,
-    name: "Bukleen Laundry Wash Liquid Soap 1L",
-    description: "Powerful laundry liquid soap for bright and fresh-smelling clothes.",
-    price: 1800,
+    price: 6000,
     imageUrl: "/lovable-uploads/cf77fe9d-9209-4730-aa8d-601b3055ff5d.png",
   },
   {
     id: 4,
     name: "Bukleen Toilet Wash 500ml",
     description: "Advanced toilet cleaning solution for hygiene and freshness.",
-    price: 900,
+    price: 2000,
     imageUrl: "/lovable-uploads/d2e3913a-98cf-4700-9b2f-8d64ab264b41.png",
   },
 ];

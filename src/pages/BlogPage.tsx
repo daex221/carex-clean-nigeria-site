@@ -25,7 +25,7 @@ const blogPosts = [
   {
     id: 3,
     title: "Kitchen Hygiene: Maintaining a Clean and Safe Cooking Environment",
-    excerpt: "Essential tips for kitchen cleanliness and how Carex Dish Wash Liquid helps maintain food safety standards.",
+    excerpt: "Essential tips for kitchen cleanliness and safe food-handling practices in home and commercial kitchens.",
     date: "2024-01-05",
     author: "Carex Team",
     imageUrl: "/placeholder.svg",
@@ -60,7 +60,7 @@ const BlogPage = () => {
             Carex <span className="text-carex-blue">Blog</span>
           </h1>
           <p className="text-gray-600 text-center max-w-3xl mx-auto">
-            Stay updated with the latest cleaning tips, product insights, and industry news from Carex Products Nigeria Enterprises
+            Stay updated with the latest cleaning tips, product insights, and industry news from Carex Consumer Products Limited
           </p>
         </div>
       </div>

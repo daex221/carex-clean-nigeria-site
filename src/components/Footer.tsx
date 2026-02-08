@@ -18,9 +18,9 @@ const Footer = () => {
             />
               <div>
                 <h3 className="text-xl font-bold">
-                  <span className="text-carex-blue">CAREX</span>
+                  <span className="text-carex-blue">BUKLEEN</span>
                 </h3>
-                <span className="text-carex-green text-sm">Products Nigeria Enterprises</span>
+                <span className="text-carex-green text-sm">Carex Consumer Products Limited</span>
               </div>
             </div>
             <p className="text-gray-300 mb-4">
@@ -41,13 +41,18 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/about" className="text-gray-300 hover:text-carex-blue transition-colors">
+                  About Us
+                </Link>
+              </li>
+              <li>
                 <Link to="/products" className="text-gray-300 hover:text-carex-blue transition-colors">
                   Products
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-carex-blue transition-colors">
-                  About Us
+                <Link to="/training" className="text-gray-300 hover:text-carex-blue transition-colors">
+                  Training
                 </Link>
               </li>
               <li>
@@ -60,11 +65,6 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
-              <li>
-                <Link to="/training" className="text-gray-300 hover:text-carex-blue transition-colors">
-                  Training
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -75,6 +75,10 @@ const Footer = () => {
               <span className="font-bold">Phone:</span>{" "}
               <a href="tel:08033272366" className="hover:text-carex-blue transition-colors">
                 0803 327 2366
+              </a>
+              <br />
+              <a href="tel:08126991008" className="hover:text-carex-blue transition-colors">
+                0812 699 1008
               </a>
             </p>
             <div className="mt-4">
@@ -91,7 +95,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
           <p>
-            © {currentYear} Carex Products Nigeria Enterprises. All rights reserved.
+            © {currentYear} Carex Consumer Products Limited. All rights reserved.
           </p>
         </div>
       </div>
