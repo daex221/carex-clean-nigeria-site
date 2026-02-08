@@ -30,8 +30,8 @@ const Navbar = () => {
               className="h-10 w-auto"
             />
             <div className="flex flex-col">
-              <span className="text-lg font-bold text-carex-blue">CAREX</span>
-              <span className="text-xs text-carex-green font-medium">Products Nigeria Enterprises</span>
+              <span className="text-lg font-bold text-carex-blue">BUKLEEN</span>
+              <span className="text-xs text-carex-green font-medium">Carex Consumer Products Limited</span>
             </div>
           </Link>
 
@@ -40,11 +40,14 @@ const Navbar = () => {
             <NavLink to="/" className={navLinkClasses} end>
               Home
             </NavLink>
-            <NavLink to="/products" className={navLinkClasses}>
-              Products
-            </NavLink>
             <NavLink to="/about" className={navLinkClasses}>
               About
+            </NavLink>
+            <NavLink to="/products" className={navLinkClasses}>
+              Product
+            </NavLink>
+            <NavLink to="/training" className={navLinkClasses}>
+              Training
             </NavLink>
             <NavLink to="/blog" className={navLinkClasses}>
               Blog
@@ -52,19 +55,23 @@ const Navbar = () => {
             <NavLink to="/contact" className={navLinkClasses}>
               Contact
             </NavLink>
-            <NavLink to="/training" className={navLinkClasses}>
-              Training
-            </NavLink>
+            <Button asChild className="bg-carex-blue hover:bg-carex-light-blue text-white">
+              <a href="/distributor" className="px-3 py-2 rounded-md">Distributor</a>
+            </Button>
           </div>
 
           {/* Call Us Button (Desktop) */}
           <div className="hidden md:flex items-center">
-            <Button asChild className="bg-carex-green hover:bg-carex-light-green">
+            <Button asChild className="bg-carex-green hover:bg-carex-light-green mr-3">
               <a href="tel:08033272366" className="flex items-center gap-2">
                 <Phone size={16} />
                 <span>Call Us</span>
               </a>
             </Button>
+            <div className="text-sm text-gray-700">
+              <a href="tel:08033272366" className="block">0803 327 2366</a>
+              <a href="tel:08126991008" className="block">0812 699 1008</a>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -131,13 +138,20 @@ const Navbar = () => {
             >
               Training
             </NavLink>
+            <NavLink
+              to="/distributor"
+              className={navLinkClasses}
+              onClick={toggleMenu}
+            >
+              Distributor
+            </NavLink>
             <Button
               asChild
               className="w-full mt-2 bg-carex-green hover:bg-carex-light-green"
             >
               <a href="tel:08033272366" className="flex items-center justify-center gap-2">
                 <Phone size={16} />
-                <span>Call Us: 0803 327 2366</span>
+                <span>Call Us: 0803 327 2366 | 0812 699 1008</span>
               </a>
             </Button>
           </div>

@@ -16,39 +16,31 @@ const sampleProducts = [
     id: 2,
     name: "Bukleen Car Wash Liquid Soap 1L",
     description: "Premium car wash solution for a spotless clean and shine. Safe for all car surfaces and provides protection from UV damage.",
-    price: 1200,
+    price: 2000,
     category: "Car Care",
     imageUrl: "/placeholder.svg",
   },
   {
     id: 3,
-    name: "Bukleen Dish Wash Liquid 500ml",
-    description: "Effective dish washing liquid that cuts through grease and oil. Gentle on hands while providing powerful cleaning.",
-    price: 800,
-    category: "Kitchen",
+    name: "Bukleen Car Wash Liquid Soap 2L",
+    description: "Premium car wash solution for a spotless clean and shine. Safe for all car surfaces and provides protection from UV damage.",
+    price: 3000,
+    category: "Car Care",
     imageUrl: "/placeholder.svg",
   },
   {
     id: 4,
     name: "Bukleen Laundry Wash 4L",
     description: "Powerful laundry liquid soap for bright and fresh-smelling clothes. Removes tough stains while protecting fabric colors.",
-    price: 2000,
+    price: 6000,
     category: "Laundry",
     imageUrl: "/lovable-uploads/aeb22473-af27-494b-af76-d595f18eec71.png",
-  },
-  {
-    id: 5,
-    name: "Bukleen Laundry Wash 1L",
-    description: "Powerful laundry liquid soap for bright and fresh-smelling clothes. Removes tough stains while protecting fabric colors.",
-    price: 1800,
-    category: "Laundry",
-    imageUrl: "/lovable-uploads/1c14c88d-7ed1-4a82-87a3-2fd739c7cd12.png",
   },
   {
     id: 6,
     name: "Bukleen Toilet Wash 500ml",
     description: "Advanced toilet cleaning solution for hygiene and freshness. Kills 99.9% of germs and removes tough stains.",
-    price: 900,
+    price: 2000,
     category: "Bathroom",
     imageUrl: "/lovable-uploads/d2e3913a-98cf-4700-9b2f-8d64ab264b41.png",
   },
@@ -56,14 +48,14 @@ const sampleProducts = [
     id: 7,
     name: "Bukleen Bleach 1L",
     description: "Powerful bleaching solution for whitening and disinfecting. Effective against stains and bacteria.",
-    price: 1000,
+    price: 2000,
     category: "Household",
     imageUrl: "/placeholder.svg",
   },
 ];
 
 // Categories for filtering
-const categories = ["All", "Car Care", "Kitchen", "Laundry", "Bathroom", "Household"];
+const categories = ["All", "Car Care", "Laundry", "Bathroom", "Household"];
 
 const ProductsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -151,7 +143,7 @@ const ProductsPage = () => {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              Call Us at 0803 327 2366
+              Call Us: 0803 327 2366 | 0812 699 1008
             </a>
           </Button>
         </div>

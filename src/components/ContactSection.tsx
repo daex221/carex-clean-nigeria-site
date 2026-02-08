@@ -17,8 +17,11 @@ const ContactSection = () => {
                 <Phone className="h-5 w-5 mt-1" />
                 <div>
                   <p className="font-semibold">Phone Number</p>
-                  <a href="tel:08033272366" className="hover:underline">
+                  <a href="tel:08033272366" className="hover:underline block">
                     0803 327 2366
+                  </a>
+                  <a href="tel:08126991008" className="hover:underline block">
+                    0812 699 1008
                   </a>
                 </div>
               </div>
@@ -32,7 +35,7 @@ const ContactSection = () => {
             </div>
             <div className="mt-8">
               <Button asChild size="lg" className="bg-white text-carex-blue hover:bg-gray-100">
-                <a href="tel:08033272366">Call Us Now</a>
+                <a href="tel:08033272366">Call Us Now: 0803 327 2366</a>
               </Button>
             </div>
           </div>

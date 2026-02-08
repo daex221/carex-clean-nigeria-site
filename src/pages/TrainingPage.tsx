@@ -20,10 +20,10 @@ const TrainingPage = () => {
           <div>
             <h2 className="text-2xl font-bold mb-6">Carex Training Program</h2>
             <p className="mb-4">
-              At Carex Products Nigeria Enterprises, we believe in empowering individuals and businesses to succeed in the fast-growing cleaning products industry. Through our specialized Carex Training Program, we offer hands-on training for aspiring entrepreneurs, startups, and organizations interested in learning the art and science of formulating and producing high-quality cleaning products.
+              At Carex Consumer Products Limited, we believe in empowering individuals and businesses to succeed in the fast-growing cleaning products industry. Through our specialized Carex Training Program, we offer hands-on training for aspiring entrepreneurs, startups, and organizations interested in learning the art and science of formulating and producing high-quality cleaning products.
             </p>
             <p className="mb-4">
-              Our comprehensive training covers the formulation and production of car wash liquid soaps, laundry liquid soaps, bleach, toilet wash, dish wash liquid, and more. Beyond production skills, we guide participants through the critical process of product registration in line with Nigerian regulatory standards, ensuring they are fully compliant and ready for the market.
+              Our comprehensive training covers the formulation and production of car wash liquid soaps, laundry liquid soaps, bleach, toilet wash and more. Beyond production skills, we guide participants through the critical process of product registration in line with Nigerian regulatory standards, ensuring they are fully compliant and ready for the market.
             </p>
             <p className="mb-4">
               We also provide actionable insights into branding, packaging, and marketing strategies to help participants turn their ideas into successful ventures.
@@ -54,8 +54,8 @@ const TrainingPage = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2">Product Formulation</h3>
-              <p className="text-gray-600">
-                Master the science behind creating effective car wash liquid soaps, laundry liquid soaps, bleach, toilet wash, and dish wash liquid products.
+                <p className="text-gray-600">
+                Master the science behind creating effective car wash liquid soaps, laundry liquid soaps, bleach and toilet wash products.
               </p>
             </div>
 

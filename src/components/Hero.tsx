@@ -10,18 +10,17 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-              <span className="text-carex-blue">Premium</span> Cleaning Products
-              <span className="text-carex-green"> for Nigeria</span>
+              Premium cleaning solutions for Nigeria homes and businesses
             </h1>
             <p className="text-lg md:text-xl mb-8 text-gray-300">
-              Trusted by households and businesses across Nigeria for effective cleaning solutions. Experience the difference with Carex Products.
+              Manufactured in Nigeria by Carex Consumer Products Limited, Bukleen delivers high-performance cleaning and car care products trusted by households, car wash centers and businesses nationwide
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="bg-carex-blue hover:bg-carex-light-blue">
                 <Link to="/products">View Products</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-gray-900">
-                <Link to="/contact">Contact Us</Link>
+              <Button asChild size="lg" className="bg-carex-blue hover:bg-carex-light-blue">
+                <Link to="/distributor">Distributor</Link>
               </Button>
             </div>
           </div>

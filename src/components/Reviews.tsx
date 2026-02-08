@@ -14,7 +14,7 @@ const reviews = [
     id: 2,
     name: "Amina Ibrahim",
     review:
-      "Carex Dish Wash is amazing! It removes all grease and oil easily and is gentle on my hands. I've been using it for two years now.",
+      "Bukleen cleaning product is amazing! It removes grease and oil easily and is gentle on my hands. I've been using it for two years now.",
     rating: 5,
   },
   {
